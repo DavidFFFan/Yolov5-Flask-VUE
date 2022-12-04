@@ -3,10 +3,10 @@
     <div class="top-left-edition">
       <span style="color: #21b3b9; font-weight: bold">
         <i class="el-icon-star-off" style="font-size: 23px"></i
-        >我的公众号：可达鸭的深度学习教程
+        >水产养殖修复系统
       </span>
       <span>
-        <i class="el-icon-time" style="font-size: 23px"></i>CSDN、B站：BIT可达鸭
+        <i class="el-icon-time" style="font-size: 23px"></i>中国海洋大学
       </span>
     </div>
     <div id="word">
@@ -19,7 +19,7 @@ export default {
   name: "Header",
   data() {
     return {
-      msg: "YOLOv5-WEB端",
+      msg: "水产养殖修复系统",
       activeIndex: "1",
     };
   },

@@ -122,17 +122,17 @@
                 element-loading-spinner="el-icon-loading"
                 lazy
               >
-                <el-table-column label="目标类别" width="250px">
+                <el-table-column label="分辨率" width="250px">
                   <template slot-scope="scope">
                     <span>{{ scope.row[2] }}</span>
                   </template>
                 </el-table-column>
-                <el-table-column label="目标大小" width="250px">
+                <el-table-column label="检测时间" width="250px">
                   <template slot-scope="scope">
                     <span>{{ scope.row[0] }}</span>
                   </template>
                 </el-table-column>
-                <el-table-column label="置信度" width="250px">
+                <el-table-column label="FPS" width="250px">
                   <template slot-scope="scope">
                     <span>{{ scope.row[1] }}</span>
                   </template>
@@ -182,7 +182,7 @@ export default {
     };
   },
   created: function () {
-    document.title = "YOLOv5目标检测WEB端";
+    document.title = "水产养殖恢复系统";
   },
   methods: {
     true_upload() {
